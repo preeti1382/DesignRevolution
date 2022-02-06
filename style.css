@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Prompt:wght@300&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Josefin Sans";
+}
+html{
+    scroll-behavior: smooth;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* design-h */
+#design-h{
+    padding: 100px;
+}
+.design{
+    font-weight: 800;
+    font-size: 80px;
+    text-align: left;
+    color: #9e0404;
+    line-height: 100%;
+}
+@media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 600px){
+    #design-h{
+        padding: 30px;
+    }    
+    .design{
+        font-size: 40px;
+    }
+}
+
+/* image-row */
+#image-row{
+    margin-top: 30px;
+}
+.new-level-div{
+    background-image: url(./images/first.jpg);
+    width: 90%;
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.new-level-h{
+    color: white;
+    font-weight: 800;
+    letter-spacing: 0.2ch;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.book-img{
+    width: 100%;
+    height: 90%;
+}
+
+.row-1 , .row-2{
+    margin-top: 30px;
+}
