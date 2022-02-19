@@ -237,8 +237,8 @@ time{
     /* background:linear-gradient(#ffa4d3,#ffa4d3,#ffa4d3,#9be2ff) ; */
   
     margin-top: 50px;
-    /* padding-top:80px; */
-    /* padding-bottom:0px; */
+    padding-top:80px;
+    padding-bottom:0px;
     background-color: black;
   }
   .faq-h1{
